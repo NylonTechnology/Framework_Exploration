@@ -1,0 +1,34 @@
+TechSuitePublicBundle_homepage:
+    path:  /
+    defaults: { _controller: TechSuitePublicBundle:Default:index }
+
+
+# Contact Model
+
+TechSuitePublicBundle_Contact_homepage:
+    path:  /contacts
+    defaults: { _controller: TechSuitePublicBundle:Contact:index }
+    requirements:
+        _method:  GET
+
+TechSuitePublicBundle_Contact_show:
+    path:  /contacts/{id}
+    defaults: { _controller: TechSuitePublicBundle:Contact:show }
+    requirements:
+        _method:  GET
+
+
+# Office Model
+
+TechSuitePublicBundle_Office_homepage:
+    path:  /offices
+    defaults: { _controller: TechSuitePublicBundle:Office:index }
+    requirements:
+        _method:  GET
+
+TechSuitePublicBundle_Office_show:
+    path:  /offices/{id}
+    defaults: { _controller: TechSuitePublicBundle:Office:show }
+    requirements:
+        _method:  GET
+
