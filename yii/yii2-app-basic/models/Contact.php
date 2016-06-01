@@ -18,5 +18,11 @@ class Contact extends ActiveRecord
 
 
 
+	public function getOffices() {
+	    return $this->hasMany(Office::className(), ['id' => 'office_id'])
+	      ->viaTable('contact_office_jn', ['contact_id' => 'id'])
+          ->orderBy('offices.sort ASC');
+	}
+
 
 }

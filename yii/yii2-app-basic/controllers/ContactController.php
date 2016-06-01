@@ -24,6 +24,7 @@ class ContactController extends Controller
         $contacts = $query->orderBy('id')
             ->offset($pagination->offset)
             ->limit($pagination->limit)
+            ->with('offices')
             ->all();
 
         return $this->render('index', [
@@ -31,6 +32,21 @@ class ContactController extends Controller
             'pagination' => $pagination,
         ]);
     }
+
+
+    public function actionView($id = null)
+    {
+        $query = Contact::find();
+
+        $contact = $query
+            ->with('offices')
+            ->where(['id' => $id])
+            ->one();
+
+        return $this->render('view', [
+            'contact' => $contact
+        ]);
+    }    
 
 
 }
