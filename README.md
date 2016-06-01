@@ -24,50 +24,50 @@ For testing and evaluation, this repository was installed into the root web dire
 ## Framework-Specific Paths and File Locations
 
 ### Laravel
-#### Contacts index
+##### Contacts index
 http://localhost/Framework_Exploration/laravel/public/contacts
-#### Contacts detail
+##### Contacts detail
 http://localhost/Framework_Exploration/laravel/public/contacts/1
 
-#### Model File Locations
+##### Model File Locations
 /Framework_Exploration/laravel/app/Contact.php
 /Framework_Exploration/laravel/app/Office.php
-#### Controller File Location
+##### Controller File Location
 /Framework_Exploration/laravel/app/Http/Controllers/ContactsController.php
 /Framework_Exploration/laravel/app/Http/Controllers/OfficesController.php
-#### View File Location
+##### View File Location
 /Framework_Exploration/laravel/resources/views/contacts/
 
 ### Cake 
-#### Contacts index
+##### Contacts index
 http://localhost/Framework_Exploration/cake/contacts
-#### Contacts detail
+##### Contacts detail
 http://localhost/Framework_Exploration/cake/contacts/view/1
 
-#### Model File Locations
+##### Model File Locations
 /Framework_Exploration/cake/src/Model/Entity/Contact.php
 /Framework_Exploration/cake/src/Model/Table/ContactsTable.php
 /Framework_Exploration/cake/src/Model/Entity/Office.php
 /Framework_Exploration/cake/src/Model/Table/OfficesTable.php 
-#### Controller File Location
+##### Controller File Location
 /Framework_Exploration/cake/src/Controller/ContactsController.php
 /Framework_Exploration/cake/src/Controller/OfficesController.php
-#### View File Location
+##### View File Location
 /Framework_Exploration/cake/src/Template/Contacts/
 
 ### CodeIgniter
-#### Contacts index
+##### Contacts index
 http://localhost/Framework_Exploration/codeIgniter/contacts
-#### Contacts detail
+##### Contacts detail
 http://localhost/Framework_Exploration/codeIgniter/contacts/1
 
-#### Model File Locations
+##### Model File Locations
 /Framework_Exploration/codeIgniter/application/models/contacts_model.php
 /Framework_Exploration/codeIgniter/application/models/offices_model.php
-#### Controller File Location
+##### Controller File Location
 /Framework_Exploration/codeIgniter/application/controllers/contacts.php
 /Framework_Exploration/codeIgniter/application/controllers/offices.php
-#### View File Location
+##### View File Location
 /Framework_Exploration/codeIgniter/application/views/contacts
 
 ### Yii
